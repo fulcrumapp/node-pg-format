@@ -1,10 +1,10 @@
 {
-    "name": "@fulcrumapp/pg-format",
+    "name": "@fulcrumapp/node-pg-format",
     "description": "Node.js implementation of PostgreSQL's format() to safely create dynamic SQL queries.",
     "version": "0.0.1",
     "author": "",
     "license": "ISC",
-    "repository": "https://github.com/fulcrumapp/pg-format",
+    "repository": "https://github.com/fulcrumapp/node-pg-format",
     "publishConfig": {
       "registry": "https://npm.pkg.github.com"
     },
