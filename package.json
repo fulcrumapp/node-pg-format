@@ -1,16 +1,12 @@
 {
-    "author": {
-        "name": "Datalanche, Inc.",
-        "url": "https://www.datalanche.com"
-    },
-    "name": "pg-format",
-    "license": "MIT",
-    "homepage": "https://github.com/datalanche/node-pg-format",
+    "name": "@fulcrumapp/pg-format",
     "description": "Node.js implementation of PostgreSQL's format() to safely create dynamic SQL queries.",
-    "version": "1.0.2",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/datalanche/node-pg-format.git"
+    "version": "0.0.1",
+    "author": "",
+    "license": "ISC",
+    "repository": "https://github.com/fulcrumapp/pg-format",
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
     },
     "main": "lib/index.js",
     "directories": {
@@ -19,15 +15,15 @@
     "engines": {
         "node": ">=4.0"
     },
+    "scripts": {
+        "test": "node ./node_modules/mocha/bin/mocha",
+        "cover-test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha"
+    },
     "dependencies": {
     },
     "devDependencies": {
         "istanbul": "^0.4.2",
         "mocha": "2.4.5",
         "should": "8.2.1"
-    },
-    "scripts": {
-        "test": "node ./node_modules/mocha/bin/mocha",
-        "cover-test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha"
     }
 }
